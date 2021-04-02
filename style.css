@@ -1,0 +1,213 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  list-style:none;
+  text-decoration:none;
+}
+:root{
+  font-size:62.5%;
+}
+header{
+  height:45.3rem;
+  background-image: url(header.png); 
+  background-position: center;
+  background-size:cover;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  text-align:center;
+
+  }
+  header div{
+    flex-direction:column;
+    color:#ffffff;
+    
+  }
+  header div h1{
+    font-weight:bold;
+    font-size:3.2rem;
+    
+  }
+  header div > p{
+    margin-top:2.0rem;
+    margin-bottom:2.0rem;
+    font-size:2.1rem;
+  }
+  header div > a{
+    color:#ffffff;
+    background-color:#333333;
+    border:1px solid #666666;
+    font-size:2.1rem;
+    padding:1.0em 1.5em;
+    display:inline-block;
+  }
+  header div > a:hover{
+    cursor:pointer;
+    background-color:#eaeaea;
+    color:#333333;
+  }
+  article.a1{
+    background-color: #eaeaea;
+  }
+  article.a1 > div{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding-bottom:4.5rem;
+
+  }
+  div.giftCard{
+    display:flex;
+    font-size:2.1rem;
+  }
+  article.a1 div h1{
+    font-size:3.2rem;
+    padding-top:2.5rem;
+    padding-bottom:2.5rem;
+  }
+  article.a2{
+    background-color:#333333;
+  }
+  div.container2{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    display:flex;
+    justify-content:space-around;
+    padding-top:4.0rem;
+    padding-bottom:4.0rem;
+  }
+  div.container2 div img{
+    display:block;
+    height:200px;
+    width:300px;
+    max-width:100%;
+  }
+  div.container2 div p{
+    font-size:2.1rem;
+    padding-bottom:6.0rem; 
+  }
+  div.container2 div{
+    width:300px;
+    background-color:#ffffff;
+  }
+  div.container2 div h2{
+    font-size:2.4rem;
+    padding-top:5.0rem;
+    padding-bottom:5.0rem;
+  }
+  article.a3{
+    background-color: #ffffff;
+  }
+  div.container3{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center; 
+  }
+  div.container3 h2{
+    font-size:2.8rem;
+    padding-top:5.0rem;
+    padding-bottom:5.0rem;
+  }
+  div.container3 p{
+    font-size:2.1rem;
+    padding-bottom:6.0rem;
+  }
+  article.a4{
+    display:flex;
+    color:#ffffff;
+  }
+  div.d1{
+    background-color: #2690d4;
+  }
+  div.d2{
+    background-color: #333333;
+  }
+  div.d1, div.d2{
+    flex:1;
+  }
+  article.a4 div h2{
+    font-size:2.8rem;
+    padding-top:5.0rem;
+    padding-bottom:5.0rem;
+  }
+  div.com{
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+  }
+  div.com p{
+    font-size:2.1rem;
+    padding-bottom:6.0rem;
+  }
+  footer{
+    background-color: #000000;
+  }
+  div.main{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content:space-between;
+  }
+  div.main div p{
+    font-size:2.1rem;
+    color:white;
+    padding-bottom:3.0rem;
+    padding-top:3.0rem;
+  }
+div.foot2 p span{
+  color:#2690c7;
+}
+@media screen and (max-width:362px){
+  header{
+    height:auto;
+  }
+  article.a1 > div{
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  div.giftCard{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+  }
+  div.container2{
+    width:97%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+div.container2 div{
+  width:100%;
+}
+div.container2 div img{
+  width:100%;
+}
+div.container3{
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center; 
+}
+article.a4{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+}
+div.main{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  justify-content:center;
+}
+}
